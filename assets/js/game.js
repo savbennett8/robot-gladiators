@@ -27,7 +27,7 @@ var fight = function (enemyName) {
 
             //if yes, leave fight
             if (confirmSkip) {
-            window.alert(playerName + " has chosen to skip the fight. Goodbye!");
+                window.alert(playerName + " has chosen to skip the fight. Goodbye!");
                 //subtract money for skipping
                 playerMoney = playerMoney - 10;
                 console.log("playerMoney", playerMoney);
@@ -50,7 +50,7 @@ var fight = function (enemyName) {
 
                 //award player money for winning
                 playerMoney = playerMoney + 20;
-
+                console.log("playerMoney", playerMoney);
                 // leave while() loop since enemy is dead
                 break;
             }
